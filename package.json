@@ -1,0 +1,24 @@
+{
+  "name": "bookshelf-api",
+  "version": "1.0.0",
+  "description": "Digunakan sebagai salah satu syarat lulus kelas Belajar Membuat Aplikasi Back-End untuk Pemula Dicoding Indonesia",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/server.js",
+    "lint": "eslint ./src"
+  },
+  "author": "galihmramdan17@gmail.com",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.25.0",
+    "eslint-config-google": "^0.14.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^3.4.0",
+    "nodemon": "^2.0.7",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^20.1.2",
+    "nanoid": "^3.1.22"
+  }
+}
